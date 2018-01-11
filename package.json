@@ -1,0 +1,19 @@
+{
+  "name": "rollup-ts-example",
+  "version": "1.0.0",
+  "description": "Example TypeScript project using Rollup's own declaration files",
+  "main": "dist/index.js",
+  "repository": "git@github.com:KingHenne/rollup-ts-example.git",
+  "author": "Hendrik Liebau <mail@hendrik-liebau.de>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "tsc -p . --noEmit"
+  },
+  "dependencies": {
+    "rollup": "^0.53.4"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
